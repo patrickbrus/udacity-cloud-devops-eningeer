@@ -1,0 +1,8 @@
+
+Parameters:
+  
+  ProjectName:
+    Type: String
+    Description: Project name used for tagging resources
+  
+Resources:

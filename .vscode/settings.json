@@ -1,0 +1,18 @@
+{
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json": "*.yaml"
+    },
+    "yaml.customTags": [
+        "!Ref",
+        "!GetAtt",
+        "!Sub sequence",
+        "!Sub scalar",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select sequence",
+        "!Select scalar",
+        "!FindInMap sequence",
+        "!FindInMap scalar"
+    ]
+  }
+  
